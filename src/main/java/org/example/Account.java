@@ -25,5 +25,8 @@ public class Account {
    public float getBalance(){
      return balance;
    }
+   public void withdraw(int withdraw){
+     this.balance=balance- withdraw;
+   }
 
 }
