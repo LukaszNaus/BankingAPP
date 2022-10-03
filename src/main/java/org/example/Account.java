@@ -19,6 +19,11 @@ public class Account {
     return details;
 
    }
-   public int
+   public void deposit(int deposit){
+     this.balance=balance + deposit;
+   }
+   public float getBalance(){
+     return balance;
+   }
 
 }
